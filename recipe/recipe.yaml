@@ -30,8 +30,10 @@ tests:
   - python:
       imports:
         - aiohttp_session
-      pip_check: false
-      python_version: ${{ python_min }}
+      pip_check: true
+      python_version: 
+        - ${{ python_min }}
+        - "*"
 about:
   license: Apache-2.0
   license_file: LICENSE
