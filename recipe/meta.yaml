@@ -34,8 +34,8 @@ test:
 
 about:
   home: https://github.com/aio-libs/aiohttp-session/
-  license: Apache Software
-  license_family: APACHE
+  license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
   summary: sessions for aiohttp.web
   doc_url: http://aiohttp-session.readthedocs.io/
