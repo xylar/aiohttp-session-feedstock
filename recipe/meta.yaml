@@ -6,7 +6,7 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiohttp_session-{{ version }}.tar.gz
   sha256: 15e6e0288e9bcccd4b1d0c28aae9c20e19a252b12d0cb682223ca9c83180e899
 
 build:
